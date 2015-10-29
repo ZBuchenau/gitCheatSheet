@@ -27,7 +27,7 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git add -A` - __Fill Me Out__
 
 #### Commit changes in staged files
-`$ git commit -m "<commit message>"` - __Fill Me Out__
+`$ git commit -m "<commit message>"` - saves staged file changes. Record changes to the repo.
 
 #### Branching
 `$ git branch <branch name>` - creates a specific branch
@@ -38,4 +38,15 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 #### Merging
 
-`$ git merge <branch name>` - __Fill Me Out__
+`$ git merge <branch name>` - Join two or more development histories together. Branches meet up again to become one.
+#### Commands for working with a remote repository (e.g. Github)
+
+`$ git clone <repo path or URL>` - clone a repository into a new directory.
+
+`$ git remote` - List all remotes for the current repo.
+
+`$ git remote add <remote name> <remote path or URL>` - adds a remote to your repo.
+
+`$ git pull <remote name> <branch name>` - Pull down changes from a remote and integrate them into your repo. Performs `git fetch` and then `git merge`.
+
+`$ git push <remote name> <branch name>` - Send your changes to the remote to be merged.
