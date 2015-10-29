@@ -12,7 +12,7 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Repo Status
 `$ git status` - Check the status of your current repository and see which files have changed.
 
-`$ git diff` - __Fill Me Out__
+`$ git diff` - Show changes between commits, commit and working tree, etc
 
 #### Repo History
 $ git log` - General History of Previous Commits for Repo
@@ -22,9 +22,9 @@ $ git log` - General History of Previous Commits for Repo
 `$ git log -p [filename]` - Very Detailed History of Past Commits for Current Repos
 
 #### Stage files to commit
-`$ git add <filename>` - Moves the specified file to the staging area. 
+`$ git add <filename>` - Moves the specified file to the staging area.
 
-`$ git add -A` - Moves all the files that have been modified to the staging area. 
+`$ git add -A` - Moves all the files that have been modified to the staging area.
 
 #### Commit changes in staged files
 `$ git commit -m "<commit message>"` - saves staged file changes. Record changes to the repo.
