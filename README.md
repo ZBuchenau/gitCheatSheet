@@ -30,11 +30,11 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git commit -m "<commit message>"` - __Fill Me Out__
 
 #### Branching
-`$ git branch <branch name>` - __Fill Me Out__
+`$ git branch <branch name>` - creates a specific branch
 
-`$ git branch` - __Fill Me Out__
+`$ git branch` - git-branch - List, create, or delete branches
 
-`$ git checkout <branch name>` - __Fill Me Out__
+`$ git checkout <branch name>` - moves you to that branch to "check it out" and work on it.
 
 #### Merging
 
